@@ -5,7 +5,7 @@
 [app]
 
 # (str) Title of your application
-title = Annapurna ONGC
+title = Canteen ONGC
 
 # (str) Package name
 package.name = myapp
@@ -17,7 +17,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (leave empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = 
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
@@ -41,7 +41,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements =  python3==3.8.0,hostpython==3.8.0, kivy, pillow
+requirements =  python3==3.8.0, hostpython==3.8.0, kivy, pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
